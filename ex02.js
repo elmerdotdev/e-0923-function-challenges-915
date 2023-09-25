@@ -10,3 +10,11 @@
  * 
  * Print the returned value
  */
+
+function ageCalculator(name, yearOfBirth, currentYear) {
+  let age = currentYear - yearOfBirth
+  return `${name} is ${age} years old.`
+}
+
+let message = ageCalculator("John", 1990, 2023)
+console.log(`${message} Happy birthday!`)

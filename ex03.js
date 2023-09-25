@@ -12,3 +12,14 @@
  * 
  * console.log(compliment('John', 30))
  */
+
+function compliment(name, age) {
+  if (age < 18) {
+    return `You are still young, ${name}!`
+  } else {
+    return `You are an adult, ${name}!`
+  }
+}
+
+let message = compliment("John", 18)
+console.log(message)

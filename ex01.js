@@ -8,3 +8,11 @@
  * 
  * console.log(tempConverter(30))
  */
+
+function tempConverter(fahrenheit) {
+  let celsius = (fahrenheit - 32) * 5 / 9
+  return celsius
+}
+
+let temperature = tempConverter(120)
+console.log(temperature)
